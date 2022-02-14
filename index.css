@@ -1,0 +1,707 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.hero{
+    background-image: url(./Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100vh;
+ 
+}
+.hero-text{
+ padding: 200px 50px;
+}
+.hero-text1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+}
+.hero-text h4{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-family: 'Signika', sans-serif;
+    padding: 0 50px;
+    color: #1e365d;
+}
+.navbar-brand img{
+    width: 50px;
+}
+
+.button-50 {
+  appearance: button;
+  background-color: #1e365d;
+  background-image: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: #e7e5e520 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+.nav-link{
+  position: relative;
+}
+.nav-link:before{
+  content: '';
+  background-color: #1e365d;
+  position: absolute;
+  height: 4px;
+  width: 0%;
+  left: 30%;
+  bottom: 0;
+  top: 34px;
+  transition: 0.7s; 
+ 
+}
+.nav-link:hover:before{
+  width: 50%;
+}
+@media (max-width:492px){
+  .hero-text{
+    padding: 240px 30px;
+   }
+   .hero-text h4{
+    font-size: 2.1rem;
+}
+.hero{
+  height: 100vh;
+}
+.hero-text1{
+  font-size: 1.5rem;
+}
+.navbar-brand{
+  padding: 0 30px;
+}
+.nav-item{
+  text-align: center;
+}
+}
+@media (max-width:392px){
+  .hero-text{
+    padding: 210px 27px;
+   }
+   .hero-text h4{
+    font-size: 1.7rem;
+}
+.hero{
+  height: 100vh;
+}
+.hero-text1{
+  font-size: 1.5rem;
+}
+.navbar-brand{
+  padding: 0 27px;
+}
+}
+/*second section*/
+.second-section{
+  background-color: #f2f3f9;
+  height: 80vh;
+}
+.about-text{
+  margin-top: 40px;
+}
+.about-text h1{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+color: #1e365d;
+}
+.second-img{
+ margin-top: 80px;
+
+}
+.second-row{
+  width: 90%;
+  margin-left: 30px;
+}
+.second-img img {
+  border: 4px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  width: 450px;
+}
+
+.second-img img:hover {
+  box-shadow: 0 0 2px 1px white;
+}
+.button-51{
+  appearance: button;
+  background-color: #1e365d;
+  background-image: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-51:focus {
+  text-decoration: none;
+}
+
+.button-51:hover {
+  text-decoration: none;
+}
+
+.button-51:active {
+  box-shadow: #e7e5e520 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-51:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 12px 50px;
+  }
+}
+@media(max-width:492px){
+  .second-row{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .about-text h1{
+    font-size: 1.8rem;
+
+  }
+  .second-img{
+    margin-top: 20px;
+   
+   }
+   .second-section{
+     height: 115vh;
+   }
+}
+@media(max-width:392px){
+   .second-section{
+     height: 145vh;
+   }
+}
+.comman-title{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4.5rem;
+  position: relative;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.comman-title:before{
+  content: '';
+  background-color: #1e365d8e;
+  height: 3px;
+  width: 5%;
+  position: absolute;
+  transform: translate(-50%);
+  right: 0%;
+  left: 50%;
+  top: 120%;
+}
+.third-section{
+ width: 98%;
+ margin-left: 30px;
+ margin-top: 50px;
+}
+.card-shadow{
+  box-shadow: -6px 9px 16px -7px rgba(0,0,0,0.34);
+  transition: 2s ease-in-out;
+}
+.card-shadow:hover{
+ transform: translateY(-15px);
+  cursor: pointer;
+}
+.button-53{
+  appearance: button;
+  background-color: #1e365d;
+  background-image: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 10px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-53:focus {
+  text-decoration: none;
+}
+
+.button-53:hover {
+  text-decoration: none;
+}
+
+.button-53:active {
+  box-shadow: #e7e5e520 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-53:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 600px) {
+  .button-53 {
+    padding: 10px 50px;
+  }
+
+}
+@media (max-width:780px){
+  .third-section{
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+}
+/*video sec*/
+.video-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 60px;
+}
+.video{
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to left,rgba(34, 38, 90, 0.5),rgba(20, 37, 63, 0.5)),url(./Images/video.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.video ion-icon{
+  color: #fff;
+  font-size: 50px;
+  padding: 40px;
+  background: rgba(255,255,255,.3);
+  border-radius: 50%;
+  position: relative;
+}
+.video ion-icon:before{
+content: '';
+position:absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+border-radius: 50%;
+border: 15px solid #1e365d;
+animation: animate 1.5s linear infinite;
+opacity: 0;
+}
+.video ion-icon:after{
+  content: '';
+  position:absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 50%;
+border: 15px solid #fff;
+animation: animated 1.5s linear infinite;
+opacity: 0;
+animation-delay: .6s;
+}
+@keyframes animate{
+  0%{
+    transform:scale(.5);
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1.5);
+  }
+}
+@keyframes animated{
+  0%{
+    transform:scale(.5);
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1.5);
+  }
+}
+/*serach couese*/
+.couser-search{
+  width: 92%;
+  height: 50vh;
+  background-color: #1e365d;
+  margin-left: 60px;
+  margin-top: 90px;
+  border-radius: 7px;
+ text-align: center;
+  color: white;
+
+}
+.mail-h1{
+  font-family: 'Kaushan Script', cursive;
+}
+.min-course{
+  background-color: white;
+  width: 80%;
+  height: 22vh;
+  margin-left: 110px;
+  border-radius: 7px;
+}
+.mail{
+  width: 90%;
+  height: 17vh;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 14px;
+}
+.mail-1{
+  padding-left: 1px;
+  outline: none;
+  border: none;
+  background-color: gainsboro;
+  margin-top: 42px;
+  border-radius: 7px;
+  text-align: center;
+}
+.mail-2{
+  padding-right: 1px;
+  outline: none;
+  border: none;
+  background-color: gainsboro;
+  margin-top: 42px;
+  border-radius: 7px;
+  text-align: center;
+}
+.btn-5{
+  margin-top: 42px;
+  background-color: #1e365d;
+  color: white;
+}
+.btn-5:hover{
+  color: white;
+}
+input[type=text] {
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border-bottom: 4px solid #1e365d;
+}
+@media (max-width:602px){
+  .couser-search{
+    width: 94%;
+    height: 50vh;
+    margin-left: 10px;
+  }
+  .min-course{
+    width: 90%;
+    height: 30vh;
+    margin-left: 10px;
+    border-radius: 7px;
+  }
+  .mail{
+    width: 70%;
+    height: 27vh;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 40px;
+    
+  }
+  .mail-2{
+    margin-top: 2px;
+  }
+  .mail-1{
+    margin-top:2px;
+  }
+  .btn-5{
+    margin-top:4px;
+  }
+}
+/*tilwat*/
+.tilwat-main{
+  margin-top: 90px;
+  color: white;
+}
+.tilwat-1{
+  height: 151vh;
+  background-color: #1e365d;
+  margin-top: 40px;
+}
+.telwat-text{
+  width: 70%;
+  margin-left: 40px;
+}
+.tilwat-h1{
+  font-family: 'Kaushan Script', cursive;
+  margin-top: 60px;
+  font-size: 3rem;
+}
+.tilwat-form{
+  background-color: white;
+  width: 70%;
+  height: 70vh;
+  margin-left: 40px;
+}
+.tilwat-sub-form{
+  width: 65%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 60px;
+  
+}
+.tilwat-11{
+  margin-top: 40px;
+  height: 8vh;
+  width: 50%;
+  background-color: gainsboro;
+  text-align: center;
+}
+.tilwat-2{
+  margin-top: 40px;
+  height: 8vh;
+  width: 50%;
+  background-color: gainsboro;
+  text-align: center;
+}
+.tilwat-3{
+  margin-top: 40px;
+  height: 8vh;
+  width: 50%;
+  background-color: gainsboro;
+  text-align: center;
+}
+.btn-8{
+  background-color: tomato;
+  color: white;
+  margin-top: 30px;
+}
+.btn-9{
+  background-color: #1e365d;
+  color: white;
+  margin-top: 20px;
+}
+.tilwat-pic{
+  height: 151vh;
+}
+@media (max-width:768px){
+  .telwat-text{
+    width: 90%;
+    margin-left: 20px;
+  }
+  .tilwat-form{
+    width: 90%;
+    height: 70vh;
+    margin-left: 10px;
+  }
+  .tilwat-sub-form{
+    width: 90%;
+    margin-left: 20px;
+  }
+  .tilwat-pic{
+    width:315px;
+    height: 80vh;
+  }
+}
+.Comunity{
+  color: #1e365d;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 110px;
+
+}
+.comunity-h1{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3.3rem;
+}
+.comunity-p{
+  width: 75%;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+.btn-10{
+  background-color: #1e365d;
+  color: white;
+  margin-top: 17px;
+}
+hr.new4 {
+  border: 3px solid #1e365d;
+  margin-top: 110px;
+}
+@media screen and (max-width:720px) 
+{
+  .Comunity{
+    margin-top: 620px;
+  }
+  .comunity-h1{
+    font-size: 2.9rem;
+  }
+  .comunity-p{
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
+/*footer*/
+.footer-main{
+  width: 100%;
+  height: 50vh;
+  background-color: #f2f3f9;
+  color: black;
+}
+
+.footer-2nd{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px;
+  padding-top: 50px;
+}
+.about-img{
+  width: 35%;
+}
+.newsletters{
+  width: 60%;
+}
+.news-btn{
+  background-color: #1e365d;
+  color: #fff;
+  outline: none;
+}
+.copy-text{
+  background-color: #1e365d;
+  color: white;
+  height: 8vh;
+  width: 100%;
+}
+.copy-text2{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px;
+}
+.copy-icon{
+  font-size: 22px;
+  cursor: pointer;
+}
+
+@media(max-width: 768px) {
+  .footer-2nd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 12px;
+    padding-top: 50px;
+  }
+  .footer-main{
+    width: 100%;
+    height: 120vh;
+    background-color: #f2f3f9;
+    color: black;
+  }
+  .about-img{
+    width: 98%;
+  }
+}
+
+/* copy footer reaponaive*/
+@media (max-width:600px){
+  .copy-text2{
+    flex-direction: column;
+    margin: 0 13px;
+  }
+  .copy-text{
+    background-color: #1e365d;
+    color: white;
+    height: 18vh;
+    width: 100%;
+  }
+  .copy-icon{
+    font-size: 22px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+ 
+}
